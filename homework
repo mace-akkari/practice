@@ -1,0 +1,13 @@
+- get a vue set up
+
+---- get the api end from vue repo 's 89 repos find it 
+---- ajax call to get it - similar to ctrypto 
+---- similar layout to the git hub layout 
+---- then render it 
+---- hard code a user in or an organisation 
+---- list the repos 
+---- 
+
+components and ajax call -- 
+use fake data if lost 
+
