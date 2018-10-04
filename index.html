@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Github Vue.js</title>
+</head>
+<body>
+  <div class="container">
+    <div id="vue-repos">
+      <h1>{{ title }}</h1>
+       <ul>
+        <li v-for="repos in vueProject">
+          <h3>{{repos.name}}</h3> 
+          <div>
+            <p>{{repos.description}}</p>
+            <p>Forked {{repos.forks_count}} times</p>
+            <p>Created:{{created_at}}</p>
+            <p>Updated at:{{repos.updated_at}}</p>
+            <p>{{repos.watchers_count}} Watchers</p>
+            <p>Has {{repos.open_issues_count}} issues</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
