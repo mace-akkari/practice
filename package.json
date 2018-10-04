@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mace-akkari/practice/issues"
   },
-  "homepage": "https://github.com/mace-akkari/practice#readme"
+  "homepage": "https://github.com/mace-akkari/practice#readme",
+  "dependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
