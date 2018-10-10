@@ -5,7 +5,7 @@ body {
 }
   
 .container {
-    max-width: 30%; 
+    max-width: 40%; 
     min-height: initial;
     position: relative;
 }
@@ -16,6 +16,7 @@ body {
 
 h3 {
     display: inline;
+    color: #95effe;
 }
 
 p {
