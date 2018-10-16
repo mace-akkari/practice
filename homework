@@ -35,3 +35,11 @@ vue instance √√√√√√√√
 
 -------------------------------------
 webpack no longer needs a config file as of version 4?????
+
+
+<div id="app">
+  <p>Employee Id: {{ idNum }}</p>
+</div>
+idNum: function(){
+    return this.firstName[0] + this.lastName[0] + this.id;
+}
