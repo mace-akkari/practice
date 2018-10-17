@@ -7,8 +7,9 @@ Vue.component('repo-item', {
   template: `
     <li>
     <h3>{{repository.name}}</h3>
-     <p>Description: {{repository.description}}</p>
-     <div v-on:click="isOpen=!isOpen">
+     <p>Description: {{repository.description}}</p> 
+     <p v-on:click="isOpen=!isOpen">Please click here for more info:</p>
+     <div v-show="isOpen">
      <p>Forked {{repository.forks_count}} times</p>
      <p>Created: {{repository.created_at}}</p>
      <p>Updated at: {{repository.updated_at}}</p>
@@ -25,7 +26,7 @@ const app = new Vue({
     title: 'Vue.js repositories',
     repos: []
   },
-});
+})
 
 //------- Ajax --------------------
 fetch(gitHubURL('vuejs'))
