@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f4f4;
+    margin: 0 10px;
+}
+  
+.container {
+    max-width: 40%; 
+    min-height: initial;
+    position: relative;
+}
+  
+.container > div {
+    padding-bottom: 30px;
+}
+
+h3 {
+    display: inline;
+    color: #95effe;
+}
+
+p {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 5px;
+}
+
+li {
+    border: #eaeaea solid 1px;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: #95effe solid 5px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 3px black;
+}
