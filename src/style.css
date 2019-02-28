@@ -2,12 +2,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #f4f4f4;
     margin: 0 10px;
+    text-align: center;
 }
   
 .container {
     max-width: 40%; 
     min-height: initial;
     position: relative;
+    display: inline-block;
 }
   
 .container > div {
