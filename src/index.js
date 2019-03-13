@@ -11,7 +11,7 @@ Vue.component('repo-item', {
     <li>
     <h3>{{repository.name}}</h3>
      <p>Description: {{repository.description}}</p> 
-     <p v-on:click="isOpen=!isOpen">Please click here for more info:</p>
+     <p v-on:click="isOpen=!isOpen" class="drop">Please click here for more info:</p>
      <div v-show="isOpen">
      <p>Forked {{repository.forks_count}} times</p>
      <p>Created: {{repository.created_at}}</p>
