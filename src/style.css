@@ -18,7 +18,7 @@ body {
 
 h3 {
     display: inline;
-    color: #95effe;
+    color: #38daf7;
 }
 
 p {
@@ -39,4 +39,8 @@ li {
     position: relative;
     background: #fff;
     box-shadow: 0 2px 3px black;
+}
+
+.drop{
+    font-weight: bold;
 }
