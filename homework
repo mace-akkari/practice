@@ -40,6 +40,21 @@ webpack no longer needs a config file as of version 4?????
 <div id="app">
   <p>Employee Id: {{ idNum }}</p>
 </div>
+
 idNum: function(){
     return this.firstName[0] + this.lastName[0] + this.id;
 }
+----------------------------------
+
+
+static func or componrent 
+classes 
+
+
+qu/uat ==== qa qualiaty assurance 
+prod === production, code the user uses lives
+
+agile (scrum/ kanban) vs waterfall
+ depolyment -  continues intergration 
+============================================
+
